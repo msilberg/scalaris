@@ -9,7 +9,7 @@ object session1 {
 
   def sumOfInt(a: Int, b: Int): Int = sum(id, a, b)
   def sumOfCube(a: Int, b: Int): Int = sum(cube, a, b)
-  def sumOfFactorials(a: Int, b: Int) = sum(factorial, a, b)
+  def sumOfFactorials(a: Int, b: Int): Int = sum(factorial, a, b)
 
   def id(n: Int): Int = n
   def cube(n: Int): Int = n * n * n
